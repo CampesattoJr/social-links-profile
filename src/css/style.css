@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: #000;
+}
+
+.card{
+    width: 38.4rem;
+    height: 61rem;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .avatar{
+    width: 89px;
+    border-radius: 100%;
+    margin-top: 38px;
+}
+
+.card .nome-usuario{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 27px;
+}
+
+.card .local-usuario{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+
+.card .descricao{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 27px;
+}
+
+.card .redes-sociais{
+    
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .redes-sociais .item{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.card .redes-sociais .item:hover{
+    background-color: hsl(75, 94%, 57%);
+
+    & a{
+        color: #000;
+    }
+}
+
+.card .redes-sociais .item a{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Estilização do footer Frontend Mentos */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
