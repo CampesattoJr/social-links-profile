@@ -90,3 +90,15 @@ body{
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* Responsivaidade */
+@media (width <= 375px){
+    .card{
+        margin: 0 20px;
+        width: 30rem;
+    }
+    
+    .card .redes-sociais .item a{
+        font-size: 12px;
+    }
+}
